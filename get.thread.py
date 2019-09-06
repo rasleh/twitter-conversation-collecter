@@ -69,6 +69,6 @@ tweets_of_interest = deque()
 collected_tweets = {}
 api = authenticate()
 
-retrieve_conversation_thread("1168509279978053633", "NLPatITU")
+# retrieve_conversation_thread("1168509279978053633", "NLPatITU")
 # retrieve_conversation_thread("1168771907036033024", "oestergaard")
 #retrieve_conversation_thread("1168845054569566208", "JacobUSchultz1")
