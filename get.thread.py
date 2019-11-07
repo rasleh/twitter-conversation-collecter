@@ -13,6 +13,7 @@ import tweepy
 # TODO: Create method (separate file?) which looks through database, checks submission date of source tweets, and
 #  moves them to "closed" database file, if they are older than x (30 days?), so they wont be looked through when
 #  updating conversation trees
+# TODO: Implement command-line client
 # Performs authentication necessary to access the Twitter API, using the credentials given in twitter.ini
 def authenticate():
     config = configparser.ConfigParser()
